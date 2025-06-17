@@ -17,8 +17,8 @@ public static class CanIBuyBeerCalculator
     public static BuyBeerResultEnum CalculateBeerBuy(int age, string place, decimal promille)
     {
 
-        if ((age > 18 && place == "Bar" ||
-            age > 20 && place == "Systembolaget") &&
+        if ((age > 18 && place == "Krogen" ||
+            age > 20 && place == "Systemet") &&
             promille < 1.5m)
         {
             return BuyBeerResultEnum.Ok;

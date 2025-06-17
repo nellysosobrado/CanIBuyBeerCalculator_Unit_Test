@@ -14,7 +14,7 @@ public class CanIBuyBeerCalculatorTests
         try
         {
             // Arrange 
-            var age = 17;
+            var age = 20;
             var place = "Krogen";
             var proMille = 1.2m;
 
